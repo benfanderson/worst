@@ -1,0 +1,222 @@
+body{
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 1.9em;
+  margin: 0 0 3% 0;
+  font-family: 'Playfair Display SC', serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0 0 5% 0;
+    padding: 0;
+    overflow: hidden;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    /*background-color: #333;*/
+}
+
+li {
+    float: left;
+    padding: 0% 5%
+}
+
+li a {
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+/* Change the link to underline on hover */
+li a:hover {
+    text-decoration: underline;
+}
+
+img {
+   width: 100%;
+   height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+footer{
+  padding: 5px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  text-align: center;
+  font-style: italic;
+}
+
+.mainstory h2{
+  margin: 0%;
+  font-size: 2em;
+}
+
+.mainstory p{
+  font-family: serif;
+  margin: 1% 0;
+  font-size: 1.2em;
+}
+
+.story h2, .sidestory h2{
+  margin: 1% 0 7% 0;
+}
+
+.top{
+  margin-bottom: 5%;
+}
+
+/*.top h2{
+  border-left: 1px solid;
+  padding-left: 3%;
+}*/
+
+.top a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 3%;
+  padding-top: 2%;
+  border-bottom: 1px solid;
+}
+
+/*View for tablets*/
+@media (min-width:479px) {
+
+  h1{
+    font-size: 4em;
+    margin-bottom: 0.75%;
+  }
+
+ul{
+  margin-bottom: 3%;
+}
+
+li{
+  font-size: 1.25em;
+}
+
+.mainstory{
+  vertical-align: top;
+  width: 62%;
+  /*margin-right: 2%;*/
+  display: inline-block;
+  float: right;
+}
+
+.top{
+  float: left;
+  vertical-align: top;
+  width: 33%;
+  display: inline-block;
+  margin-bottom: 2.5%;
+
+}
+
+.top h2{
+  margin: 0 0 3% 0;
+}
+
+.top a{
+  padding-bottom: 6%;
+
+}
+
+.side{
+  clear: both;
+}
+
+.sidestory{
+  display: inline-block;
+  width: 47%;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.story{
+  display: inline-block;
+  width: 32%;
+}
+
+.centre{
+  margin: 0 1.9%;
+}
+
+
+}
+
+/*View for desktop*/
+@media (min-width:800px) {
+  .container{
+    width: 1200px;
+    margin: auto;
+  }
+
+  h1{
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 0.55%;
+  }
+
+  ul{
+    margin-bottom: 2%;
+    padding: 0.5% 0;
+  }
+
+  .mainstory{
+    width: 50%;
+    float: none;
+    margin: 0 4.8%;
+
+  }
+
+  .top{
+    width: 20%;
+    float: left;
+    margin-bottom: 4%;
+  }
+
+  .top a{
+    padding: 5% 0;
+
+  }
+
+  .side{
+    width: 20%;
+    display: inline-block;
+    float: right;
+    clear: none;
+
+  }
+
+  .sidestory{
+    width: 100%;
+  }
+
+  .collection{
+    clear: both;
+  }
+
+  .story{
+    width: 30%;
+  }
+
+  .centre{
+    margin: 0 4.95%;
+  }
+
+
+}
